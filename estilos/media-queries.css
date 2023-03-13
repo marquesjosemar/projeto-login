@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) and (max-width:2000px) {
+
+    body {
+        background-image:linear-gradient(to top, rgb(35, 39, 35),blueviolet);
+    }
+
+    #login {
+        width: 90vw;
+        transition: width 0.3s height 0s ;
+    }
+
+    #login>#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+
+    }
+
+    login>#formulario {
+        float: right;
+        width: 70%;
+
+    }
+}

@@ -41,12 +41,14 @@ main {
 }
 
 #login>#imagem {
-    background: url(../imagens/img01.jpg) no-repeat;
+    display: block;
+    background: url(../imagens/img01.jpg)no-repeat;
     background-size: cover;
     background-position: left botton;
     height: 200px;
 }
 
-#formulario {
-    
+login>#formulario {
+    display: block;
+    padding: 10px;
 }
