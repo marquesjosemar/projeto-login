@@ -75,13 +75,44 @@
     #formulario > p {
         font-size: 0.8m;
     }
+    
+    form > .campo {
+        display: block;
+        background-color: blueviolet;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px 0px;
+    }
 
-    form > input > #iemail {
-        background-color: black;
+    .campo > label {
+        display: none;
+    }
+    .campo >span {
+        box-sizing: border-box;
+        color: white;
+        font-size: 3em;
+        width: 40px;
+        padding: 5px;
+        
+        
+       
+    }
+
+    .campo >input {
+        background-color: bisque;
+        height: 50px;
+        width: 90%;
+        
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+
+    .campor > label {
+        margin-left: -10px;
     }
 
 
-    
+
     form > input [type=submit] {
         display: block;
         font-size: 1em;
