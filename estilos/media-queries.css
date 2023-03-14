@@ -8,7 +8,7 @@
 
     #login {
         width: 90vw;
-        transition: width 0.3s height 0s ;
+        transition: width 0.3s height 0s;
     }
 
     #login>#imagem {
@@ -22,5 +22,8 @@
         float: right;
         width: 70%;
 
+    }
+    #login > #formulario > h1 {
+        
     }
 }
