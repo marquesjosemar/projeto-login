@@ -64,6 +64,11 @@ main {
     font-size: 0.8m;
 }
 
+input {
+    outline: 0;
+    box-shadow: 0px;
+}
+
 form>input[type=submit] {
     display: block;
     font-size: 1em;
@@ -74,6 +79,7 @@ form>input[type=submit] {
     color: white;
     border: none;
     border-radius: 7px;
+    
 }
 
 form>input[type=submit]:hover {

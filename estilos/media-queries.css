@@ -53,6 +53,8 @@
         float: left;
         width: 30%;
         height: 100%;
+        background-position: center top;
+        background-size: cover;
     
     }
 
@@ -74,11 +76,12 @@
     
     #formulario > p {
         font-size: 0.8m;
+        margin: 20px 20px;
     }
     
     form > .campo {
         display: block;
-        background-color: blueviolet;
+        background-color: rgb(164, 101, 223);
         padding: 5px;
         border-radius: 5px;
         margin: 5px 0px;
@@ -90,12 +93,11 @@
     .campo >span {
         box-sizing: border-box;
         color: white;
-        font-size: 3em;
+        font-size: 25px;
+        line-height: 2;
+        margin: 2px 0px 2px 0px;
         width: 40px;
-        padding: 5px;
-        
-        
-       
+        padding: 5px;  
     }
 
     .campo >input {
@@ -103,13 +105,20 @@
         height: 50px;
         width: 90%;
         
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         border-radius: 10px;
     }
 
-    .campor > label {
-        margin-left: -10px;
+    div.campo input:focus-within{
+        background-color: white;
+        border: 0px;
+        outline: none;
     }
+
+    input {
+        outline: 0;
+    }
+    
 
 
 
@@ -123,6 +132,7 @@
         color: white;
         border: none;
         border-radius: 7px;
+        outline-style: none;
     }
     
 
